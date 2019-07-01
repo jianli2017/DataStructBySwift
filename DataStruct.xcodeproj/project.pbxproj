@@ -7,13 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3000900922C454E50067A1D5 /* LinkList_61_Rotate_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000900822C454E50067A1D5 /* LinkList_61_Rotate_List.swift */; };
+		3000900B22C463170067A1D5 /* LinkLIst_82_Remove_Duplicates_from_Sorted_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000900A22C463170067A1D5 /* LinkLIst_82_Remove_Duplicates_from_Sorted_List.swift */; };
+		3000900D22C492A40067A1D5 /* LinkList_83_Remove_Duplicates_from_Sorted_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000900C22C492A40067A1D5 /* LinkList_83_Remove_Duplicates_from_Sorted_List.swift */; };
+		3000900F22C494380067A1D5 /* LinkList_86_Partition_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000900E22C494380067A1D5 /* LinkList_86_Partition_List.swift */; };
+		3000901122C49CE60067A1D5 /* LinkList_92_Reverse_Linked_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000901022C49CE60067A1D5 /* LinkList_92_Reverse_Linked_List.swift */; };
+		3000901322C4B14F0067A1D5 /* LinkList_109_Convert_Sorted_List_to_Binary_Search_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000901222C4B14F0067A1D5 /* LinkList_109_Convert_Sorted_List_to_Binary_Search_Tree.swift */; };
+		3000902222C4D59B0067A1D5 /* LinkList_143_Reorder_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000902122C4D59B0067A1D5 /* LinkList_143_Reorder_List.swift */; };
+		3000902422C4DD360067A1D5 /* LinkList_147_Insertion_Sort_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000902322C4DD360067A1D5 /* LinkList_147_Insertion_Sort_List.swift */; };
+		3000902622C4E59C0067A1D5 /* LinkList_148_Sort_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000902522C4E59C0067A1D5 /* LinkList_148_Sort_List.swift */; };
 		3028B7DD22BA4E1200C43294 /* DoubleLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3028B7DC22BA4E1200C43294 /* DoubleLinkList.swift */; };
+		304CA43822C30C4200D9BEAD /* LinkLIst_23_Merge_k_Sorted_Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CA43722C30C4200D9BEAD /* LinkLIst_23_Merge_k_Sorted_Lists.swift */; };
+		304CA43A22C3795400D9BEAD /* LinkLIst_24_Swap_Nodes_in_Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CA43922C3795400D9BEAD /* LinkLIst_24_Swap_Nodes_in_Pairs.swift */; };
+		304CA43C22C3890800D9BEAD /* LinkList_25_Reverse_Nodes_in_k_Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CA43B22C3890800D9BEAD /* LinkList_25_Reverse_Nodes_in_k_Group.swift */; };
+		305564A422C0A49A00272952 /* LinkList_19_删除链表的倒数第N个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305564A322C0A49A00272952 /* LinkList_19_删除链表的倒数第N个节点.swift */; };
+		305564A622C0D2BF00272952 /* LinkList_21_合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305564A522C0D2BF00272952 /* LinkList_21_合并两个有序链表.swift */; };
+		305564A822C0E3A500272952 /* LinkLIst_1019_链表中的下一个更大节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305564A722C0E3A500272952 /* LinkLIst_1019_链表中的下一个更大节点.swift */; };
 		307FB86022BC898D00B397CB /* CircleLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307FB85F22BC898D00B397CB /* CircleLinkList.swift */; };
 		307FB86222BCC3B100B397CB /* CircleDoubleLInkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307FB86122BCC3B100B397CB /* CircleDoubleLInkList.swift */; };
+		307FB86422BCFD6300B397CB /* LinkList_237_删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307FB86322BCFD6300B397CB /* LinkList_237_删除链表中的节点.swift */; };
+		30B28DB122C5A95300D8E512 /* LinkList_203_Remove_Linked_List_Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B28DB022C5A95300D8E512 /* LinkList_203_Remove_Linked_List_Elements.swift */; };
+		30B28DB322C5ABA300D8E512 /* LinkList_206_Reverse_Linked_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B28DB222C5ABA300D8E512 /* LinkList_206_Reverse_Linked_List.swift */; };
+		30B28DB522C5BFB700D8E512 /* LinkList_328_Odd_Even_Linked_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B28DB422C5BFB700D8E512 /* LinkList_328_Odd_Even_Linked_List.swift */; };
+		30B28DB722C5E0F100D8E512 /* LinkList_234_Palindrome_Linked_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B28DB622C5E0F100D8E512 /* LinkList_234_Palindrome_Linked_List.swift */; };
+		30B28DB922C5EA0800D8E512 /* LinkList_445_Add_Two_Numbers_II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B28DB822C5EA0800D8E512 /* LinkList_445_Add_Two_Numbers_II.swift */; };
+		30B28DBB22C5FBE900D8E512 /* LinkList_876_Middle_of_the_Linked_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B28DBA22C5FBE900D8E512 /* LinkList_876_Middle_of_the_Linked_List.swift */; };
+		30B28DBD22C6053600D8E512 /* LinkList_707_Design_Linked_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B28DBC22C6053600D8E512 /* LinkList_707_Design_Linked_List.swift */; };
+		30B28DBF22C6058A00D8E512 /* LinkList_817_Linked_List_Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B28DBE22C6058A00D8E512 /* LinkList_817_Linked_List_Components.swift */; };
+		30B28DC122C6188200D8E512 /* LinkList_725_Split_Linked_List_in_Parts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B28DC022C6188200D8E512 /* LinkList_725_Split_Linked_List_in_Parts.swift */; };
+		30C1875922C2019C00DEF2DC /* LinkList_160_相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1875822C2019C00DEF2DC /* LinkList_160_相交链表.swift */; };
+		30C1875B22C223E700DEF2DC /* LeetCode_LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1875A22C223E700DEF2DC /* LeetCode_LinkList.swift */; };
 		30D109A522BA258500CCED2C /* PrintLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D109A422BA258500CCED2C /* PrintLink.swift */; };
 		30D5A7DF22B9C5FB00CAB830 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D5A7DE22B9C5FB00CAB830 /* main.swift */; };
 		30D5A7E622B9C63200CAB830 /* ListProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D5A7E522B9C63200CAB830 /* ListProtocal.swift */; };
 		30D5A7EB22B9D68600CAB830 /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D5A7EA22B9D68600CAB830 /* LinkList.swift */; };
+		30F941D522BFBA210076EF2C /* LinkList_2_两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F941D422BFBA210076EF2C /* LinkList_2_两数相加.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,14 +57,46 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3000900822C454E50067A1D5 /* LinkList_61_Rotate_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_61_Rotate_List.swift; sourceTree = "<group>"; };
+		3000900A22C463170067A1D5 /* LinkLIst_82_Remove_Duplicates_from_Sorted_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkLIst_82_Remove_Duplicates_from_Sorted_List.swift; sourceTree = "<group>"; };
+		3000900C22C492A40067A1D5 /* LinkList_83_Remove_Duplicates_from_Sorted_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_83_Remove_Duplicates_from_Sorted_List.swift; sourceTree = "<group>"; };
+		3000900E22C494380067A1D5 /* LinkList_86_Partition_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_86_Partition_List.swift; sourceTree = "<group>"; };
+		3000901022C49CE60067A1D5 /* LinkList_92_Reverse_Linked_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_92_Reverse_Linked_List.swift; sourceTree = "<group>"; };
+		3000901222C4B14F0067A1D5 /* LinkList_109_Convert_Sorted_List_to_Binary_Search_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_109_Convert_Sorted_List_to_Binary_Search_Tree.swift; sourceTree = "<group>"; };
+		3000901422C4C0550067A1D5 /* DataStruct-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataStruct-Bridging-Header.h"; sourceTree = "<group>"; };
+		3000901622C4C0560067A1D5 /* LinkList_138_Copy_List_with_Random_Pointer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkList_138_Copy_List_with_Random_Pointer.hpp; sourceTree = "<group>"; };
+		3000901922C4C5290067A1D5 /* LinkLIst_141_Linked_List_Cycle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkLIst_141_Linked_List_Cycle.hpp; sourceTree = "<group>"; };
+		3000901F22C4C7090067A1D5 /* LinkList_142_Linked_List_Cycle_II.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkList_142_Linked_List_Cycle_II.hpp; sourceTree = "<group>"; };
+		3000902122C4D59B0067A1D5 /* LinkList_143_Reorder_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_143_Reorder_List.swift; sourceTree = "<group>"; };
+		3000902322C4DD360067A1D5 /* LinkList_147_Insertion_Sort_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_147_Insertion_Sort_List.swift; sourceTree = "<group>"; };
+		3000902522C4E59C0067A1D5 /* LinkList_148_Sort_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_148_Sort_List.swift; sourceTree = "<group>"; };
 		3028B7DC22BA4E1200C43294 /* DoubleLinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleLinkList.swift; sourceTree = "<group>"; };
+		304CA43722C30C4200D9BEAD /* LinkLIst_23_Merge_k_Sorted_Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkLIst_23_Merge_k_Sorted_Lists.swift; sourceTree = "<group>"; };
+		304CA43922C3795400D9BEAD /* LinkLIst_24_Swap_Nodes_in_Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkLIst_24_Swap_Nodes_in_Pairs.swift; sourceTree = "<group>"; };
+		304CA43B22C3890800D9BEAD /* LinkList_25_Reverse_Nodes_in_k_Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_25_Reverse_Nodes_in_k_Group.swift; sourceTree = "<group>"; };
+		305564A322C0A49A00272952 /* LinkList_19_删除链表的倒数第N个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkList_19_删除链表的倒数第N个节点.swift"; sourceTree = "<group>"; };
+		305564A522C0D2BF00272952 /* LinkList_21_合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkList_21_合并两个有序链表.swift"; sourceTree = "<group>"; };
+		305564A722C0E3A500272952 /* LinkLIst_1019_链表中的下一个更大节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkLIst_1019_链表中的下一个更大节点.swift"; sourceTree = "<group>"; };
 		307FB85F22BC898D00B397CB /* CircleLinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLinkList.swift; sourceTree = "<group>"; };
 		307FB86122BCC3B100B397CB /* CircleDoubleLInkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDoubleLInkList.swift; sourceTree = "<group>"; };
+		307FB86322BCFD6300B397CB /* LinkList_237_删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkList_237_删除链表中的节点.swift"; sourceTree = "<group>"; };
+		30B28DB022C5A95300D8E512 /* LinkList_203_Remove_Linked_List_Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_203_Remove_Linked_List_Elements.swift; sourceTree = "<group>"; };
+		30B28DB222C5ABA300D8E512 /* LinkList_206_Reverse_Linked_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_206_Reverse_Linked_List.swift; sourceTree = "<group>"; };
+		30B28DB422C5BFB700D8E512 /* LinkList_328_Odd_Even_Linked_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_328_Odd_Even_Linked_List.swift; sourceTree = "<group>"; };
+		30B28DB622C5E0F100D8E512 /* LinkList_234_Palindrome_Linked_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_234_Palindrome_Linked_List.swift; sourceTree = "<group>"; };
+		30B28DB822C5EA0800D8E512 /* LinkList_445_Add_Two_Numbers_II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_445_Add_Two_Numbers_II.swift; sourceTree = "<group>"; };
+		30B28DBA22C5FBE900D8E512 /* LinkList_876_Middle_of_the_Linked_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_876_Middle_of_the_Linked_List.swift; sourceTree = "<group>"; };
+		30B28DBC22C6053600D8E512 /* LinkList_707_Design_Linked_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_707_Design_Linked_List.swift; sourceTree = "<group>"; };
+		30B28DBE22C6058A00D8E512 /* LinkList_817_Linked_List_Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_817_Linked_List_Components.swift; sourceTree = "<group>"; };
+		30B28DC022C6188200D8E512 /* LinkList_725_Split_Linked_List_in_Parts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_725_Split_Linked_List_in_Parts.swift; sourceTree = "<group>"; };
+		30C1875822C2019C00DEF2DC /* LinkList_160_相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkList_160_相交链表.swift"; sourceTree = "<group>"; };
+		30C1875A22C223E700DEF2DC /* LeetCode_LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_LinkList.swift; sourceTree = "<group>"; };
 		30D109A422BA258500CCED2C /* PrintLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintLink.swift; sourceTree = "<group>"; };
 		30D5A7DB22B9C5FB00CAB830 /* DataStruct */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStruct; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D5A7DE22B9C5FB00CAB830 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		30D5A7E522B9C63200CAB830 /* ListProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProtocal.swift; sourceTree = "<group>"; };
 		30D5A7EA22B9D68600CAB830 /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
+		30F941D422BFBA210076EF2C /* LinkList_2_两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkList_2_两数相加.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +144,38 @@
 				307FB85F22BC898D00B397CB /* CircleLinkList.swift */,
 				3028B7DC22BA4E1200C43294 /* DoubleLinkList.swift */,
 				307FB86122BCC3B100B397CB /* CircleDoubleLInkList.swift */,
+				30C1875A22C223E700DEF2DC /* LeetCode_LinkList.swift */,
+				30F941D422BFBA210076EF2C /* LinkList_2_两数相加.swift */,
+				305564A322C0A49A00272952 /* LinkList_19_删除链表的倒数第N个节点.swift */,
+				305564A522C0D2BF00272952 /* LinkList_21_合并两个有序链表.swift */,
+				304CA43722C30C4200D9BEAD /* LinkLIst_23_Merge_k_Sorted_Lists.swift */,
+				304CA43922C3795400D9BEAD /* LinkLIst_24_Swap_Nodes_in_Pairs.swift */,
+				304CA43B22C3890800D9BEAD /* LinkList_25_Reverse_Nodes_in_k_Group.swift */,
+				3000900822C454E50067A1D5 /* LinkList_61_Rotate_List.swift */,
+				3000900A22C463170067A1D5 /* LinkLIst_82_Remove_Duplicates_from_Sorted_List.swift */,
+				3000900C22C492A40067A1D5 /* LinkList_83_Remove_Duplicates_from_Sorted_List.swift */,
+				3000900E22C494380067A1D5 /* LinkList_86_Partition_List.swift */,
+				3000901022C49CE60067A1D5 /* LinkList_92_Reverse_Linked_List.swift */,
+				3000901222C4B14F0067A1D5 /* LinkList_109_Convert_Sorted_List_to_Binary_Search_Tree.swift */,
+				3000901622C4C0560067A1D5 /* LinkList_138_Copy_List_with_Random_Pointer.hpp */,
+				3000901922C4C5290067A1D5 /* LinkLIst_141_Linked_List_Cycle.hpp */,
+				3000901F22C4C7090067A1D5 /* LinkList_142_Linked_List_Cycle_II.hpp */,
+				3000902122C4D59B0067A1D5 /* LinkList_143_Reorder_List.swift */,
+				3000902322C4DD360067A1D5 /* LinkList_147_Insertion_Sort_List.swift */,
+				3000902522C4E59C0067A1D5 /* LinkList_148_Sort_List.swift */,
+				30C1875822C2019C00DEF2DC /* LinkList_160_相交链表.swift */,
+				30B28DB022C5A95300D8E512 /* LinkList_203_Remove_Linked_List_Elements.swift */,
+				30B28DB222C5ABA300D8E512 /* LinkList_206_Reverse_Linked_List.swift */,
+				30B28DB622C5E0F100D8E512 /* LinkList_234_Palindrome_Linked_List.swift */,
+				307FB86322BCFD6300B397CB /* LinkList_237_删除链表中的节点.swift */,
+				30B28DB422C5BFB700D8E512 /* LinkList_328_Odd_Even_Linked_List.swift */,
+				30B28DB822C5EA0800D8E512 /* LinkList_445_Add_Two_Numbers_II.swift */,
+				30B28DBC22C6053600D8E512 /* LinkList_707_Design_Linked_List.swift */,
+				30B28DC022C6188200D8E512 /* LinkList_725_Split_Linked_List_in_Parts.swift */,
+				30B28DBE22C6058A00D8E512 /* LinkList_817_Linked_List_Components.swift */,
+				30B28DBA22C5FBE900D8E512 /* LinkList_876_Middle_of_the_Linked_List.swift */,
+				305564A722C0E3A500272952 /* LinkLIst_1019_链表中的下一个更大节点.swift */,
+				3000901422C4C0550067A1D5 /* DataStruct-Bridging-Header.h */,
 			);
 			path = "线性表";
 			sourceTree = "<group>";
@@ -120,6 +212,7 @@
 				TargetAttributes = {
 					30D5A7DA22B9C5FB00CAB830 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -145,13 +238,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3000900D22C492A40067A1D5 /* LinkList_83_Remove_Duplicates_from_Sorted_List.swift in Sources */,
+				307FB86422BCFD6300B397CB /* LinkList_237_删除链表中的节点.swift in Sources */,
 				30D5A7DF22B9C5FB00CAB830 /* main.swift in Sources */,
+				30B28DBF22C6058A00D8E512 /* LinkList_817_Linked_List_Components.swift in Sources */,
+				305564A422C0A49A00272952 /* LinkList_19_删除链表的倒数第N个节点.swift in Sources */,
+				3000902422C4DD360067A1D5 /* LinkList_147_Insertion_Sort_List.swift in Sources */,
+				30C1875922C2019C00DEF2DC /* LinkList_160_相交链表.swift in Sources */,
+				305564A822C0E3A500272952 /* LinkLIst_1019_链表中的下一个更大节点.swift in Sources */,
+				304CA43A22C3795400D9BEAD /* LinkLIst_24_Swap_Nodes_in_Pairs.swift in Sources */,
+				30B28DBB22C5FBE900D8E512 /* LinkList_876_Middle_of_the_Linked_List.swift in Sources */,
 				30D109A522BA258500CCED2C /* PrintLink.swift in Sources */,
 				30D5A7EB22B9D68600CAB830 /* LinkList.swift in Sources */,
 				30D5A7E622B9C63200CAB830 /* ListProtocal.swift in Sources */,
+				3000901122C49CE60067A1D5 /* LinkList_92_Reverse_Linked_List.swift in Sources */,
+				30C1875B22C223E700DEF2DC /* LeetCode_LinkList.swift in Sources */,
+				30B28DBD22C6053600D8E512 /* LinkList_707_Design_Linked_List.swift in Sources */,
+				304CA43C22C3890800D9BEAD /* LinkList_25_Reverse_Nodes_in_k_Group.swift in Sources */,
+				3000900922C454E50067A1D5 /* LinkList_61_Rotate_List.swift in Sources */,
+				30B28DB722C5E0F100D8E512 /* LinkList_234_Palindrome_Linked_List.swift in Sources */,
+				304CA43822C30C4200D9BEAD /* LinkLIst_23_Merge_k_Sorted_Lists.swift in Sources */,
+				3000901322C4B14F0067A1D5 /* LinkList_109_Convert_Sorted_List_to_Binary_Search_Tree.swift in Sources */,
+				3000902222C4D59B0067A1D5 /* LinkList_143_Reorder_List.swift in Sources */,
+				305564A622C0D2BF00272952 /* LinkList_21_合并两个有序链表.swift in Sources */,
+				3000902622C4E59C0067A1D5 /* LinkList_148_Sort_List.swift in Sources */,
+				30B28DB122C5A95300D8E512 /* LinkList_203_Remove_Linked_List_Elements.swift in Sources */,
+				30B28DC122C6188200D8E512 /* LinkList_725_Split_Linked_List_in_Parts.swift in Sources */,
 				3028B7DD22BA4E1200C43294 /* DoubleLinkList.swift in Sources */,
+				3000900F22C494380067A1D5 /* LinkList_86_Partition_List.swift in Sources */,
 				307FB86222BCC3B100B397CB /* CircleDoubleLInkList.swift in Sources */,
 				307FB86022BC898D00B397CB /* CircleLinkList.swift in Sources */,
+				30B28DB522C5BFB700D8E512 /* LinkList_328_Odd_Even_Linked_List.swift in Sources */,
+				30B28DB922C5EA0800D8E512 /* LinkList_445_Add_Two_Numbers_II.swift in Sources */,
+				30F941D522BFBA210076EF2C /* LinkList_2_两数相加.swift in Sources */,
+				30B28DB322C5ABA300D8E512 /* LinkList_206_Reverse_Linked_List.swift in Sources */,
+				3000900B22C463170067A1D5 /* LinkLIst_82_Remove_Duplicates_from_Sorted_List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +397,18 @@
 		30D5A7E322B9C5FB00CAB830 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = MNH8F7L6T8;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DataStruct/线性表/DataStruct-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -286,9 +416,17 @@
 		30D5A7E422B9C5FB00CAB830 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MNH8F7L6T8;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DataStruct/线性表/DataStruct-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
