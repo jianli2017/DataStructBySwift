@@ -61,7 +61,10 @@ import Foundation
 
 //LinkList_445_Add_Two_Numbers_II.testAddTwoNumbers()
 
-LinkList_725_Split_Linked_List_in_Parts.testSplitListToParts()
+//LinkList_725_Split_Linked_List_in_Parts.testSplitListToParts()
 
 //LinkList_817_Linked_List_Components.testNumComponents()
 //LinkList_876_Middle_of_the_Linked_List.testMiddleNode()
+
+
+KMP.testKMP()
