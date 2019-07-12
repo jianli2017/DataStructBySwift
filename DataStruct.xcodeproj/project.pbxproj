@@ -23,6 +23,7 @@
 		305564A422C0A49A00272952 /* LinkList_19_删除链表的倒数第N个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305564A322C0A49A00272952 /* LinkList_19_删除链表的倒数第N个节点.swift */; };
 		305564A622C0D2BF00272952 /* LinkList_21_合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305564A522C0D2BF00272952 /* LinkList_21_合并两个有序链表.swift */; };
 		305564A822C0E3A500272952 /* LinkLIst_1019_链表中的下一个更大节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305564A722C0E3A500272952 /* LinkLIst_1019_链表中的下一个更大节点.swift */; };
+		306CD2BE22D89B58007D34E2 /* KMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306CD2BD22D89B58007D34E2 /* KMP.swift */; };
 		307FB86022BC898D00B397CB /* CircleLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307FB85F22BC898D00B397CB /* CircleLinkList.swift */; };
 		307FB86222BCC3B100B397CB /* CircleDoubleLInkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307FB86122BCC3B100B397CB /* CircleDoubleLInkList.swift */; };
 		307FB86422BCFD6300B397CB /* LinkList_237_删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307FB86322BCFD6300B397CB /* LinkList_237_删除链表中的节点.swift */; };
@@ -77,6 +78,7 @@
 		305564A322C0A49A00272952 /* LinkList_19_删除链表的倒数第N个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkList_19_删除链表的倒数第N个节点.swift"; sourceTree = "<group>"; };
 		305564A522C0D2BF00272952 /* LinkList_21_合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkList_21_合并两个有序链表.swift"; sourceTree = "<group>"; };
 		305564A722C0E3A500272952 /* LinkLIst_1019_链表中的下一个更大节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkLIst_1019_链表中的下一个更大节点.swift"; sourceTree = "<group>"; };
+		306CD2BD22D89B58007D34E2 /* KMP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMP.swift; sourceTree = "<group>"; };
 		307FB85F22BC898D00B397CB /* CircleLinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLinkList.swift; sourceTree = "<group>"; };
 		307FB86122BCC3B100B397CB /* CircleDoubleLInkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDoubleLInkList.swift; sourceTree = "<group>"; };
 		307FB86322BCFD6300B397CB /* LinkList_237_删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkList_237_删除链表中的节点.swift"; sourceTree = "<group>"; };
@@ -110,9 +112,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		306CD2BC22D89B44007D34E2 /* alg */ = {
+			isa = PBXGroup;
+			children = (
+				306CD2BD22D89B58007D34E2 /* KMP.swift */,
+			);
+			path = alg;
+			sourceTree = "<group>";
+		};
 		30D5A7D222B9C5FB00CAB830 = {
 			isa = PBXGroup;
 			children = (
+				306CD2BC22D89B44007D34E2 /* alg */,
 				30D5A7DD22B9C5FB00CAB830 /* DataStruct */,
 				30D5A7DC22B9C5FB00CAB830 /* Products */,
 			);
@@ -238,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306CD2BE22D89B58007D34E2 /* KMP.swift in Sources */,
 				3000900D22C492A40067A1D5 /* LinkList_83_Remove_Duplicates_from_Sorted_List.swift in Sources */,
 				307FB86422BCFD6300B397CB /* LinkList_237_删除链表中的节点.swift in Sources */,
 				30D5A7DF22B9C5FB00CAB830 /* main.swift in Sources */,

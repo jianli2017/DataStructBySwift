@@ -17,7 +17,7 @@
     NSUInteger _width;
     NSUInteger _treeHeight;
     NSString *_string;
-    __weak id _btNode;
+    __weak id _btNode;  //二叉树的节点
     MJLOPNode *_left;
     MJLOPNode *_right;
     __weak MJLOPNode *_parent;
@@ -28,6 +28,8 @@
 /******* MJLOPNode end *******/
 
 /******* MJLOPLevelInfo begin *******/
+
+//整层 的起始位置和结束位置
 @interface MJLOPLevelInfo : NSObject {
 @public
     NSUInteger _leftX;
@@ -174,6 +176,7 @@ static NSUInteger const TOP_LINE_SPACE = 1;
     return node->_treeHeight;
 }
 
+//MJLOPLevelInfo是整层信息， 返回当前节点后的level层的信息
 - (MJLOPLevelInfo *)levelInfo:(NSUInteger)level {
     if (level < 0) return nil;
     NSUInteger levelY = _y + level;
