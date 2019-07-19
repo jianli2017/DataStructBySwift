@@ -67,4 +67,22 @@ import Foundation
 //LinkList_876_Middle_of_the_Linked_List.testMiddleNode()
 
 
-KMP.testKMP()
+//KMP.testKMP()
+//AC.textAC()
+
+//Division.testDivision()
+
+//Queen8.testQueen8()
+
+
+//Problem01_BackTrace.testMaxWeight()
+
+//Problem0_1.testKnapsack()
+
+//YangHuiTriangle.testTirangle()
+
+//Money.testPayMoney()
+
+//StringDistance.testLwstBT()
+
+Graph.testReadGraph()
