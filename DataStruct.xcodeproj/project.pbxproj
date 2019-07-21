@@ -26,6 +26,9 @@
 		305564A422C0A49A00272952 /* LinkList_19_删除链表的倒数第N个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305564A322C0A49A00272952 /* LinkList_19_删除链表的倒数第N个节点.swift */; };
 		305564A622C0D2BF00272952 /* LinkList_21_合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305564A522C0D2BF00272952 /* LinkList_21_合并两个有序链表.swift */; };
 		305564A822C0E3A500272952 /* LinkLIst_1019_链表中的下一个更大节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305564A722C0E3A500272952 /* LinkLIst_1019_链表中的下一个更大节点.swift */; };
+		3059B08022E3326800036A4F /* DepthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059B07F22E3326800036A4F /* DepthFirstSearch.swift */; };
+		3059B08222E34A7200036A4F /* TestGraphSreach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059B08122E34A7200036A4F /* TestGraphSreach.swift */; };
+		3059B08422E48EC400036A4F /* DepthFirstPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059B08322E48EC400036A4F /* DepthFirstPath.swift */; };
 		305AED7222E14E5C00D912AC /* 动态规划实战.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AED7122E14E5C00D912AC /* 动态规划实战.swift */; };
 		305AED7422E171FD00D912AC /* Topo排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AED7322E171FD00D912AC /* Topo排序.swift */; };
 		305AED7722E1A32F00D912AC /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AED7622E1A32F00D912AC /* Graph.swift */; };
@@ -90,6 +93,9 @@
 		305564A322C0A49A00272952 /* LinkList_19_删除链表的倒数第N个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkList_19_删除链表的倒数第N个节点.swift"; sourceTree = "<group>"; };
 		305564A522C0D2BF00272952 /* LinkList_21_合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkList_21_合并两个有序链表.swift"; sourceTree = "<group>"; };
 		305564A722C0E3A500272952 /* LinkLIst_1019_链表中的下一个更大节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkLIst_1019_链表中的下一个更大节点.swift"; sourceTree = "<group>"; };
+		3059B07F22E3326800036A4F /* DepthFirstSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthFirstSearch.swift; sourceTree = "<group>"; };
+		3059B08122E34A7200036A4F /* TestGraphSreach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGraphSreach.swift; sourceTree = "<group>"; };
+		3059B08322E48EC400036A4F /* DepthFirstPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthFirstPath.swift; sourceTree = "<group>"; };
 		305AED7122E14E5C00D912AC /* 动态规划实战.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "动态规划实战.swift"; sourceTree = "<group>"; };
 		305AED7322E171FD00D912AC /* Topo排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Topo排序.swift"; sourceTree = "<group>"; };
 		305AED7622E1A32F00D912AC /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
@@ -136,7 +142,10 @@
 			children = (
 				305AED7D22E1CB9B00D912AC /* tiny.txt */,
 				305AED7622E1A32F00D912AC /* Graph.swift */,
+				3059B07F22E3326800036A4F /* DepthFirstSearch.swift */,
+				3059B08322E48EC400036A4F /* DepthFirstPath.swift */,
 				305AED7822E1ACC400D912AC /* ReadFile.swift */,
+				3059B08122E34A7200036A4F /* TestGraphSreach.swift */,
 			);
 			path = "图";
 			sourceTree = "<group>";
@@ -303,6 +312,7 @@
 				305564A422C0A49A00272952 /* LinkList_19_删除链表的倒数第N个节点.swift in Sources */,
 				305AED7422E171FD00D912AC /* Topo排序.swift in Sources */,
 				3000902422C4DD360067A1D5 /* LinkList_147_Insertion_Sort_List.swift in Sources */,
+				3059B08422E48EC400036A4F /* DepthFirstPath.swift in Sources */,
 				30C1875922C2019C00DEF2DC /* LinkList_160_相交链表.swift in Sources */,
 				305564A822C0E3A500272952 /* LinkLIst_1019_链表中的下一个更大节点.swift in Sources */,
 				304CA43A22C3795400D9BEAD /* LinkLIst_24_Swap_Nodes_in_Pairs.swift in Sources */,
@@ -326,11 +336,13 @@
 				3000902222C4D59B0067A1D5 /* LinkList_143_Reorder_List.swift in Sources */,
 				305564A622C0D2BF00272952 /* LinkList_21_合并两个有序链表.swift in Sources */,
 				3000902622C4E59C0067A1D5 /* LinkList_148_Sort_List.swift in Sources */,
+				3059B08022E3326800036A4F /* DepthFirstSearch.swift in Sources */,
 				30B28DB122C5A95300D8E512 /* LinkList_203_Remove_Linked_List_Elements.swift in Sources */,
 				30B28DC122C6188200D8E512 /* LinkList_725_Split_Linked_List_in_Parts.swift in Sources */,
 				3028B7DD22BA4E1200C43294 /* DoubleLinkList.swift in Sources */,
 				3000900F22C494380067A1D5 /* LinkList_86_Partition_List.swift in Sources */,
 				307FB86222BCC3B100B397CB /* CircleDoubleLInkList.swift in Sources */,
+				3059B08222E34A7200036A4F /* TestGraphSreach.swift in Sources */,
 				307FB86022BC898D00B397CB /* CircleLinkList.swift in Sources */,
 				30B28DB522C5BFB700D8E512 /* LinkList_328_Odd_Even_Linked_List.swift in Sources */,
 				30B28DB922C5EA0800D8E512 /* LinkList_445_Add_Two_Numbers_II.swift in Sources */,
@@ -465,7 +477,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = MNH8F7L6T8;
+				DEVELOPMENT_TEAM = BC3L667DWZ;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

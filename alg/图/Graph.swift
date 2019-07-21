@@ -8,14 +8,17 @@
 
 import Foundation
 
+let GraphFileName = "/Users/lijian/Desktop/github/DataStructBySwift/alg/图/tiny.txt"
+
+
 class Graph {
-    var vertex: Int
-    var adj: [[Int]]
-    var edge: Int = 0
+    var _vertex: Int
+    var _adjoin: [[Int]]
+    var _edge: Int = 0
     
     init(vertex: Int) {
-        self.vertex = vertex
-        adj = [[Int]](repeating: [Int](), count: vertex)
+        self._vertex = vertex
+        _adjoin = [[Int]](repeating: [Int](), count: vertex)
     }
     
     convenience init?(inStream: ReadFile) {
@@ -38,26 +41,30 @@ class Graph {
     }
     
     func addEdge(_ v: Int, _ w: Int) {
-        self.adj[v].append(w)
-        self.adj[w].append(v)
-        self.edge += 1
+        self._adjoin[v].append(w)
+        self._adjoin[w].append(v)
+        self._edge += 1
     }
     
     func V() -> Int {
-        return vertex
+        return _vertex
     }
     
     func E() -> Int {
-        return edge
+        return _edge
+    }
+    
+    func adj(_ v: Int) -> [Int] {
+        return _adjoin[v]
     }
     func toString() -> String {
         var result: String  =
         """
         \(V) vertixes \(E) edges \n
         """
-        for i in 0..<vertex {
+        for i in 0..<_vertex {
             result += "\(i) :"
-            for w in adj[i] {
+            for w in _adjoin[i] {
                 result += "\(w) "
             }
             result +=
@@ -70,7 +77,7 @@ class Graph {
     
     
     static func testReadGraph() {
-        let path = "/Users/lijian/Desktop/数据结构学习/DataStruct/alg/图/tiny.txt"
+        let path = GraphFileName
         let file = ReadFile(fileName: path)
         if file != nil {
             let graph = Graph(inStream: file!)

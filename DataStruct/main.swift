@@ -85,4 +85,6 @@ import Foundation
 
 //StringDistance.testLwstBT()
 
-Graph.testReadGraph()
+//Graph.testReadGraph()
+
+TestSearch.test()
