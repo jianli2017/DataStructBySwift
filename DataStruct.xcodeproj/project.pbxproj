@@ -35,6 +35,7 @@
 		305AED7722E1A32F00D912AC /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AED7622E1A32F00D912AC /* Graph.swift */; };
 		305AED7922E1ACC400D912AC /* ReadFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AED7822E1ACC400D912AC /* ReadFile.swift */; };
 		305AED7C22E1B08E00D912AC /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AED7B22E1B08E00D912AC /* common.swift */; };
+		305C940222E5EC4C00F388E1 /* DirectedDFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C940122E5EC4C00F388E1 /* DirectedDFS.swift */; };
 		306CD2BE22D89B58007D34E2 /* KMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306CD2BD22D89B58007D34E2 /* KMP.swift */; };
 		306D545222E5B28C00E51C8A /* Digraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306D545122E5B28C00E51C8A /* Digraph.swift */; };
 		307FB86022BC898D00B397CB /* CircleLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307FB85F22BC898D00B397CB /* CircleLinkList.swift */; };
@@ -106,6 +107,7 @@
 		305AED7822E1ACC400D912AC /* ReadFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFile.swift; sourceTree = "<group>"; };
 		305AED7B22E1B08E00D912AC /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 		305AED7D22E1CB9B00D912AC /* tiny.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tiny.txt; sourceTree = "<group>"; };
+		305C940122E5EC4C00F388E1 /* DirectedDFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectedDFS.swift; sourceTree = "<group>"; };
 		306CD2BD22D89B58007D34E2 /* KMP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMP.swift; sourceTree = "<group>"; };
 		306D545122E5B28C00E51C8A /* Digraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digraph.swift; sourceTree = "<group>"; };
 		306D545322E5C15300E51C8A /* tinyDG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tinyDG.txt; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				306D545122E5B28C00E51C8A /* Digraph.swift */,
+				305C940122E5EC4C00F388E1 /* DirectedDFS.swift */,
 			);
 			path = "有向图";
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				30B28DBB22C5FBE900D8E512 /* LinkList_876_Middle_of_the_Linked_List.swift in Sources */,
 				30D109A522BA258500CCED2C /* PrintLink.swift in Sources */,
 				305AED7222E14E5C00D912AC /* 动态规划实战.swift in Sources */,
+				305C940222E5EC4C00F388E1 /* DirectedDFS.swift in Sources */,
 				304263EB22E016F300BED941 /* 动态规划.swift in Sources */,
 				30D5A7EB22B9D68600CAB830 /* LinkList.swift in Sources */,
 				30D5A7E622B9C63200CAB830 /* ListProtocal.swift in Sources */,
@@ -513,7 +517,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = MNH8F7L6T8;
+				DEVELOPMENT_TEAM = BC3L667DWZ;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
