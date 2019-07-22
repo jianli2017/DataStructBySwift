@@ -8,7 +8,10 @@
 
 import Foundation
 
-let GraphFileName = "/Users/lijian/Desktop/github/DataStructBySwift/alg/图/tiny.txt"
+let GraphFileName = "/Users/lijian/Desktop/数据结构学习/DataStruct/alg/图/tiny.txt"
+
+
+let G_TinyGG_TXT = "/Users/lijian/Desktop/数据结构学习/DataStruct/alg/图/tinyGG.txt"
 
 
 class Graph {
@@ -41,8 +44,8 @@ class Graph {
     }
     
     func addEdge(_ v: Int, _ w: Int) {
-        self._adjoin[v].append(w)
-        self._adjoin[w].append(v)
+        self._adjoin[v].insert(w, at: 0)
+        self._adjoin[w].insert(v, at: 0)
         self._edge += 1
     }
     

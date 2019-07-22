@@ -87,4 +87,13 @@ import Foundation
 
 //Graph.testReadGraph()
 
-TestSearch.test()
+//DepthFirstSearch.test()
+
+//DepthFirstPaths.test()
+
+
+//BreadthFirstPaths.test()
+
+//CC.test()
+
+Digraph.testReadGraph()

@@ -34,4 +34,28 @@ class DepthFirstSearch {
     func count() -> Int {
         return _count
     }
+    
+     //测试代码
+    static func test() {
+        let path = GraphFileName
+        let file = ReadFile(fileName: path)
+        if file != nil {
+            let graph = Graph(inStream: file!)
+            if graph != nil {
+                
+                let search = DepthFirstSearch(G: graph!, s: 0)
+                for i in 0..<graph!.V() {
+                    if search.marked(i) {
+                        print(i, separator: "", terminator: ",")
+                    }
+                }
+                print(" ")
+                if search.count() != graph!.V() {
+                    print("not connet!")
+                } else {
+                    print("connect")
+                }
+            }
+        }
+    }
 }

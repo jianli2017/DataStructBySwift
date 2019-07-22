@@ -25,7 +25,7 @@ class DepthFirstPaths {
     func dfs(_ G: Graph, v: Int)  {
         _marked[v] = true
         for w in G.adj(v) {
-            if !self._marked[w] {
+            if self._marked[w] == false {
                 self._edgeTo[w] = v
                 dfs(G, v: w)
             }
@@ -36,22 +36,23 @@ class DepthFirstPaths {
         return self._marked[v]
     }
     
-    func pathTo(v: Int) -> [Int]? {
+    func pathTo(_ v: Int) -> [Int]? {
         if !hasPathTo(v) {
             return nil
         }
         var path = [Int]()
         var x = v
-        while x != self._s {
+        repeat {
             path.insert(x, at: 0)
             x =  self._edgeTo[x]
-        }
+        } while x != self._s
+        
         path.insert(self._s, at: 0)
         return path
     }
     
     static func test() {
-        let path = GraphFileName
+        let path = G_TinyGG_TXT
         let file = ReadFile(fileName: path)
         
         guard file != nil else {
@@ -62,18 +63,27 @@ class DepthFirstPaths {
         guard graph != nil else {
             return
         }
-        let  path = DepthFirstPaths(G: graph!, s: 0)
-        for i in 0..<graph!.V() {
-            if search.marked(i) {
-                print(i, separator: "", terminator: ",")
+        
+        //打印树
+        let result = graph!.toString()
+        print(result)
+        
+        
+        let s = 0
+        let dfsPath = DepthFirstPaths(G: graph!, s: s)
+        for v in 0..<graph!.V() {
+            if !dfsPath.hasPathTo(v) {
+                continue
             }
-        }
-        print(" ")
-        if search.count() != graph!.V() {
-            print("not connet!")
-        } else {
-            print("connect")
+            print("\(s) to \(v):", separator: "", terminator: " ")
+            for x in dfsPath.pathTo(v)! {
+                if x == s {
+                    print("\(x)", separator: "", terminator: " ")
+                } else {
+                    print("\(x)", separator: "", terminator: " ")
+                }
+            }
+            print()
         }
     }
-
 }
