@@ -96,4 +96,19 @@ import Foundation
 
 //CC.test()
 
-Digraph.testReadGraph()
+//Digraph.testReadGraph()
+
+//DirectedDFS.test()
+
+//DirectedCycle.test1()
+
+//DirectedCycle.test2()
+
+//DepthFirstOrder.test()
+
+
+//Topological.test()
+
+//KosarajuCC.test()
+
+EdgeWeightedGraph.test()

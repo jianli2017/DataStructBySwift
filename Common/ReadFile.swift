@@ -55,4 +55,18 @@ class ReadFile {
         }
         return Int(stringInt)
     }
+    
+    func readDouble() -> Double? {
+        let line = readLine()
+        guard line != nil else {
+            return nil
+        }
+        var words = line!.components(separatedBy: CharacterSet.whitespaces)
+        let stringDouble = words.removeFirst()
+        if words.count > 0 {
+            let modified = words.joined(separator: " ")
+            lines.insert(modified, at: 0)
+        }
+        return Double(stringDouble)
+    }
 }

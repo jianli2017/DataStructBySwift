@@ -40,5 +40,52 @@ class DirectedDFS {
         return self._marked[v]
     }
     
-    
+    static func test() {
+        let path = G_TinyDG_TXT
+        let file = ReadFile(fileName: path)
+        guard file != nil else {
+            return
+        }
+        let digraph = Digraph(inStream: file!)
+        guard digraph != nil else {
+            return
+        }
+        
+        print("测试顶点1的连通性")
+        var reachable = DirectedDFS(graph: digraph!, sources: [1])
+        
+        for v in 0..<digraph!.v() {
+            if reachable.marked(v) {
+                print("\(v)", separator: "", terminator: " ")
+            }
+        }
+        print(" ")
+        
+        
+        print("测试顶点2的连通性")
+        reachable = DirectedDFS(graph: digraph!, sources: [2])
+        
+        for v in 0..<digraph!.v() {
+            if reachable.marked(v) {
+                print("\(v)", separator: "", terminator: " ")
+            }
+        }
+        print(" ")
+        
+        
+        print("测试顶点1,2,6的连通性")
+        reachable = DirectedDFS(graph: digraph!, sources: [1,2,6])
+        
+        for v in 0..<digraph!.v() {
+            if reachable.marked(v) {
+                print("\(v)", separator: "", terminator: " ")
+            }
+        }
+        print(" ")
+        
+        
+        print("输出图片数据：")
+        let result = digraph!.toString()
+        print(result)
+    }
 }

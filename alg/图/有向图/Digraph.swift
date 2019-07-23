@@ -41,7 +41,7 @@ class Digraph {
         let r = Digraph(v: self.v())
         for v in 0..<self.v() {
             for w in self.adj(v)  {
-                r.addEdge(v, w)
+                r.addEdge(w, v)
             }
         }
         return r
