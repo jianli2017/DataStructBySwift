@@ -16,6 +16,12 @@ class Edge :Comparable {
     let _w: Int
     let _weight: Double
     
+    init() {
+        self._v = 0
+        self._w = 0
+        self._weight = 0
+    }
+    
     init(v: Int, w: Int, weight: Double) {
         self._v = v
         self._w = w

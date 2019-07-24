@@ -114,4 +114,8 @@ import Foundation
 //EdgeWeightedGraph.test()
 
 
-LazyPrimMST.test()
+//LazyPrimMST.test()
+
+//IndexMinPQ<String>.test()
+
+PrimMST.test()
