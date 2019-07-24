@@ -111,4 +111,7 @@ import Foundation
 
 //KosarajuCC.test()
 
-EdgeWeightedGraph.test()
+//EdgeWeightedGraph.test()
+
+
+LazyPrimMST.test()

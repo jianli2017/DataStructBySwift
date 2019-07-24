@@ -63,16 +63,18 @@ struct MinPQ <Element> {
     //删除
     mutating func dequeue() -> Element? {
         //判空
-        guard !isEmpty else { return nil }
+        guard !isEmpty else {
+            return nil
+        }
         
         //将第一个节点和最后一个节点交换位置
         swapElement(at: 0, with: count - 1)
         //删除原本的第一个，现在的最后一个
-        elements.removeLast()
-        
-        guard !isEmpty else { return nil }
+        let ret = elements.removeLast()
+
         //向下判断，新的节点是不是优先级最高的节点
-        return nil
+        siftDown(0)
+        return ret
     }
 }
 
@@ -126,7 +128,11 @@ private extension MinPQ {
         siftUP(elementAtIndex: parentIndex)
     }
 }
-
+extension MinPQ {
+    func iterater() -> [Element] {
+        return self.elements
+    }
+}
 /*
 class MinPQ <El> {
     //internalLists内的节点不能为空，每次移动到分两种情况处理：
