@@ -78,7 +78,7 @@ struct IndexMinPQ<Key> where Key:Comparable & RequireInit  {
         return self.keys[pq[1]]
     }
     
-    mutating func delMin() throws ->Int{
+    mutating func delMin() throws ->Int {
         guard n != 0 else {
             throw IndexMinPQError.IndexMinPQOutRangeError
         }
@@ -171,9 +171,5 @@ extension IndexMinPQ {
             print("")
             print("")
         }
-//        var aa = IndexMinPQ<Edge>(maxN:10)!
-//        aa.keys[9] = Edge(v: 2, w: 3, weight: 0.3)
-//        print(aa.keys)
-//        print(aa.keys)
     }
 }

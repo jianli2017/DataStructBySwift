@@ -22,6 +22,11 @@
 		30252FBA22E56518003C176E /* CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30252FB922E56518003C176E /* CC.swift */; };
 		3028B7DD22BA4E1200C43294 /* DoubleLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3028B7DC22BA4E1200C43294 /* DoubleLinkList.swift */; };
 		304263EB22E016F300BED941 /* 动态规划.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304263EA22E016F300BED941 /* 动态规划.swift */; };
+		3045896E22E938E900B82B80 /* DirectedEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3045896D22E938E900B82B80 /* DirectedEdge.swift */; };
+		3045897022E939C900B82B80 /* EdgeWeightedDigraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3045896F22E939C900B82B80 /* EdgeWeightedDigraph.swift */; };
+		3045897322E9480D00B82B80 /* DijkstraSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3045897222E9480D00B82B80 /* DijkstraSP.swift */; };
+		3045897622E9982E00B82B80 /* 1_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3045897522E9982E00B82B80 /* 1_两数之和.swift */; };
+		3045897822E9B3A600B82B80 /* 3_无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3045897722E9B3A600B82B80 /* 3_无重复字符的最长子串.swift */; };
 		304CA43822C30C4200D9BEAD /* LinkLIst_23_Merge_k_Sorted_Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CA43722C30C4200D9BEAD /* LinkLIst_23_Merge_k_Sorted_Lists.swift */; };
 		304CA43A22C3795400D9BEAD /* LinkLIst_24_Swap_Nodes_in_Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CA43922C3795400D9BEAD /* LinkLIst_24_Swap_Nodes_in_Pairs.swift */; };
 		304CA43C22C3890800D9BEAD /* LinkList_25_Reverse_Nodes_in_k_Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CA43B22C3890800D9BEAD /* LinkList_25_Reverse_Nodes_in_k_Group.swift */; };
@@ -44,6 +49,8 @@
 		305C940222E5EC4C00F388E1 /* DirectedDFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C940122E5EC4C00F388E1 /* DirectedDFS.swift */; };
 		306CD2BE22D89B58007D34E2 /* KMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306CD2BD22D89B58007D34E2 /* KMP.swift */; };
 		306D545222E5B28C00E51C8A /* Digraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306D545122E5B28C00E51C8A /* Digraph.swift */; };
+		3073016722EAA5240087B312 /* 5_最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3073016622EAA5240087B312 /* 5_最长回文子串.swift */; };
+		3073016922EAA5340087B312 /* 4_寻找两个有序数组的中位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3073016822EAA5340087B312 /* 4_寻找两个有序数组的中位数.swift */; };
 		307FB86022BC898D00B397CB /* CircleLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307FB85F22BC898D00B397CB /* CircleLinkList.swift */; };
 		307FB86222BCC3B100B397CB /* CircleDoubleLInkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307FB86122BCC3B100B397CB /* CircleDoubleLInkList.swift */; };
 		307FB86422BCFD6300B397CB /* LinkList_237_删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307FB86322BCFD6300B397CB /* LinkList_237_删除链表中的节点.swift */; };
@@ -105,6 +112,12 @@
 		30252FB922E56518003C176E /* CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CC.swift; sourceTree = "<group>"; };
 		3028B7DC22BA4E1200C43294 /* DoubleLinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleLinkList.swift; sourceTree = "<group>"; };
 		304263EA22E016F300BED941 /* 动态规划.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "动态规划.swift"; sourceTree = "<group>"; };
+		3045896D22E938E900B82B80 /* DirectedEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectedEdge.swift; sourceTree = "<group>"; };
+		3045896F22E939C900B82B80 /* EdgeWeightedDigraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeWeightedDigraph.swift; sourceTree = "<group>"; };
+		3045897122E93B2700B82B80 /* tinyEWD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tinyEWD.txt; sourceTree = "<group>"; };
+		3045897222E9480D00B82B80 /* DijkstraSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraSP.swift; sourceTree = "<group>"; };
+		3045897522E9982E00B82B80 /* 1_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1_两数之和.swift"; sourceTree = "<group>"; };
+		3045897722E9B3A600B82B80 /* 3_无重复字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3_无重复字符的最长子串.swift"; sourceTree = "<group>"; };
 		304CA43722C30C4200D9BEAD /* LinkLIst_23_Merge_k_Sorted_Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkLIst_23_Merge_k_Sorted_Lists.swift; sourceTree = "<group>"; };
 		304CA43922C3795400D9BEAD /* LinkLIst_24_Swap_Nodes_in_Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkLIst_24_Swap_Nodes_in_Pairs.swift; sourceTree = "<group>"; };
 		304CA43B22C3890800D9BEAD /* LinkList_25_Reverse_Nodes_in_k_Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_25_Reverse_Nodes_in_k_Group.swift; sourceTree = "<group>"; };
@@ -133,6 +146,8 @@
 		306CD2BD22D89B58007D34E2 /* KMP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMP.swift; sourceTree = "<group>"; };
 		306D545122E5B28C00E51C8A /* Digraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digraph.swift; sourceTree = "<group>"; };
 		306D545322E5C15300E51C8A /* tinyDG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tinyDG.txt; sourceTree = "<group>"; };
+		3073016622EAA5240087B312 /* 5_最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5_最长回文子串.swift"; sourceTree = "<group>"; };
+		3073016822EAA5340087B312 /* 4_寻找两个有序数组的中位数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4_寻找两个有序数组的中位数.swift"; sourceTree = "<group>"; };
 		307FB85F22BC898D00B397CB /* CircleLinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLinkList.swift; sourceTree = "<group>"; };
 		307FB86122BCC3B100B397CB /* CircleDoubleLInkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDoubleLInkList.swift; sourceTree = "<group>"; };
 		307FB86322BCFD6300B397CB /* LinkList_237_删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkList_237_删除链表中的节点.swift"; sourceTree = "<group>"; };
@@ -173,6 +188,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3045896C22E9371000B82B80 /* 最短路径 */ = {
+			isa = PBXGroup;
+			children = (
+				3045896D22E938E900B82B80 /* DirectedEdge.swift */,
+				3045896F22E939C900B82B80 /* EdgeWeightedDigraph.swift */,
+				3045897222E9480D00B82B80 /* DijkstraSP.swift */,
+			);
+			path = "最短路径";
+			sourceTree = "<group>";
+		};
+		3045897422E997E600B82B80 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				3073016522EAA4E80087B312 /* Top1_10 */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
 		305679E022E7029F002A6B9B /* 最小生成树 */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +220,7 @@
 		305AED7522E1A31B00D912AC /* 图 */ = {
 			isa = PBXGroup;
 			children = (
+				3045896C22E9371000B82B80 /* 最短路径 */,
 				305679E022E7029F002A6B9B /* 最小生成树 */,
 				306D545022E5B27300E51C8A /* 有向图 */,
 				306D544F22E5B25A00E51C8A /* 无向图 */,
@@ -222,6 +256,7 @@
 		306D544E22E5B24300E51C8A /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3045897122E93B2700B82B80 /* tinyEWD.txt */,
 				305679E522E72022002A6B9B /* tinyEWG.txt */,
 				305679DB22E6D7BB002A6B9B /* tinyDG_Topo.txt */,
 				305679D822E6B2D2002A6B9B /* tinyDG_Cycle2.txt */,
@@ -258,6 +293,17 @@
 			path = "有向图";
 			sourceTree = "<group>";
 		};
+		3073016522EAA4E80087B312 /* Top1_10 */ = {
+			isa = PBXGroup;
+			children = (
+				3045897522E9982E00B82B80 /* 1_两数之和.swift */,
+				3045897722E9B3A600B82B80 /* 3_无重复字符的最长子串.swift */,
+				3073016822EAA5340087B312 /* 4_寻找两个有序数组的中位数.swift */,
+				3073016622EAA5240087B312 /* 5_最长回文子串.swift */,
+			);
+			path = Top1_10;
+			sourceTree = "<group>";
+		};
 		30CEE44522E7FE5F00D5E3AD /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +318,7 @@
 		30D5A7D222B9C5FB00CAB830 = {
 			isa = PBXGroup;
 			children = (
+				3045897422E997E600B82B80 /* LeetCode */,
 				30CEE44522E7FE5F00D5E3AD /* Base */,
 				305AED7A22E1B08200D912AC /* Tool */,
 				306CD2BC22D89B44007D34E2 /* alg */,
@@ -405,7 +452,10 @@
 				307FB86422BCFD6300B397CB /* LinkList_237_删除链表中的节点.swift in Sources */,
 				30CEE44A22E7FE5F00D5E3AD /* MinPQ.swift in Sources */,
 				30CEE44F22E83ECF00D5E3AD /* IndexMinPQ.swift in Sources */,
+				3045897322E9480D00B82B80 /* DijkstraSP.swift in Sources */,
 				30D5A7DF22B9C5FB00CAB830 /* main.swift in Sources */,
+				3045896E22E938E900B82B80 /* DirectedEdge.swift in Sources */,
+				3073016722EAA5240087B312 /* 5_最长回文子串.swift in Sources */,
 				30B28DBF22C6058A00D8E512 /* LinkList_817_Linked_List_Components.swift in Sources */,
 				305AED7922E1ACC400D912AC /* ReadFile.swift in Sources */,
 				305564A422C0A49A00272952 /* LinkList_19_删除链表的倒数第N个节点.swift in Sources */,
@@ -441,6 +491,8 @@
 				305679E422E71771002A6B9B /* EdgeWeightedGraph.swift in Sources */,
 				30B28DBD22C6053600D8E512 /* LinkList_707_Design_Linked_List.swift in Sources */,
 				304CA43C22C3890800D9BEAD /* LinkList_25_Reverse_Nodes_in_k_Group.swift in Sources */,
+				3045897622E9982E00B82B80 /* 1_两数之和.swift in Sources */,
+				3045897022E939C900B82B80 /* EdgeWeightedDigraph.swift in Sources */,
 				3000900922C454E50067A1D5 /* LinkList_61_Rotate_List.swift in Sources */,
 				30B28DB722C5E0F100D8E512 /* LinkList_234_Palindrome_Linked_List.swift in Sources */,
 				304CA43822C30C4200D9BEAD /* LinkLIst_23_Merge_k_Sorted_Lists.swift in Sources */,
@@ -456,6 +508,7 @@
 				3000900F22C494380067A1D5 /* LinkList_86_Partition_List.swift in Sources */,
 				307FB86222BCC3B100B397CB /* CircleDoubleLInkList.swift in Sources */,
 				307FB86022BC898D00B397CB /* CircleLinkList.swift in Sources */,
+				3073016922EAA5340087B312 /* 4_寻找两个有序数组的中位数.swift in Sources */,
 				30B28DB522C5BFB700D8E512 /* LinkList_328_Odd_Even_Linked_List.swift in Sources */,
 				30B28DB922C5EA0800D8E512 /* LinkList_445_Add_Two_Numbers_II.swift in Sources */,
 				3011654922DECB8A006C773C /* 回溯思想.swift in Sources */,
@@ -463,6 +516,7 @@
 				30B28DB322C5ABA300D8E512 /* LinkList_206_Reverse_Linked_List.swift in Sources */,
 				3000900B22C463170067A1D5 /* LinkLIst_82_Remove_Duplicates_from_Sorted_List.swift in Sources */,
 				305AED7C22E1B08E00D912AC /* common.swift in Sources */,
+				3045897822E9B3A600B82B80 /* 3_无重复字符的最长子串.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

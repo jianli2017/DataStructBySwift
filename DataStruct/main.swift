@@ -8,17 +8,13 @@
 
 import Foundation
 
-//单向向链表测试
-//LinkList<Int>.test1()
+//LinkList<Int>.test1() //单向向链表测试
 
-//双向链表测试
-//DoubleLinkList<Int>.test()
+//DoubleLinkList<Int>.test() //双向链表测试
 
-//循环单向链表测试
-//CircleLinkList<Int>.test()
+//CircleLinkList<Int>.test() //循环单向链表测试
 
-//循环双向链表测试
-//CircleDoubleLInkList<Int>.test()
+//CircleDoubleLInkList<Int>.test() //循环双向链表测试
 
 //LinkList<Int>.testaddTwoNumbers()
 
@@ -74,7 +70,6 @@ import Foundation
 
 //Queen8.testQueen8()
 
-
 //Problem01_BackTrace.testMaxWeight()
 
 //Problem0_1.testKnapsack()
@@ -91,7 +86,6 @@ import Foundation
 
 //DepthFirstPaths.test()
 
-
 //BreadthFirstPaths.test()
 
 //CC.test()
@@ -106,16 +100,22 @@ import Foundation
 
 //DepthFirstOrder.test()
 
-
 //Topological.test()
 
 //KosarajuCC.test()
 
 //EdgeWeightedGraph.test()
 
-
 //LazyPrimMST.test()
 
 //IndexMinPQ<String>.test()
 
-PrimMST.test()
+//PrimMST.test()
+
+//EdgeWeightedDigraph.test()
+
+//DijkstraSP.test()
+
+//Solution_3_无重复字符的最长子串.test()
+
+Solution_4_寻找两个有序数组的中位数.test()
