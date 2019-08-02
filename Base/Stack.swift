@@ -31,4 +31,8 @@ class Stack<E> {
     func iterater() -> [E] {
         return self._array
     }
+    
+    func top() -> E {
+        return _array[0]
+    }
 }

@@ -8,11 +8,7 @@
 
 import Foundation
 
-extension String {
-    func ljIndex(_ distance: Int) ->Index {
-        return self.index(self.startIndex, offsetBy: distance)
-    }
-}
+
 class StringDistance {
     let a = "mitcmu"
     let b = "mtacnu"
