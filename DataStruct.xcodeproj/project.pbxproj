@@ -86,6 +86,10 @@
 		30B28DC122C6188200D8E512 /* LinkList_725_Split_Linked_List_in_Parts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B28DC022C6188200D8E512 /* LinkList_725_Split_Linked_List_in_Parts.swift */; };
 		30C1875922C2019C00DEF2DC /* LinkList_160_相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1875822C2019C00DEF2DC /* LinkList_160_相交链表.swift */; };
 		30C1875B22C223E700DEF2DC /* LeetCode_LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1875A22C223E700DEF2DC /* LeetCode_LinkList.swift */; };
+		30C69FE4230FCAE5006C3FF3 /* 96_不同的二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C69FE3230FCAE5006C3FF3 /* 96_不同的二叉搜索树.swift */; };
+		30CA8EEF2303DE560092C82D /* 79_单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA8EEE2303DE560092C82D /* 79_单词搜索.swift */; };
+		30CA8EF12303EA280092C82D /* 94_二叉树的中序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA8EF02303EA280092C82D /* 94_二叉树的中序遍历.swift */; };
+		30CA8EF32303EA9B0092C82D /* LeetCodeTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA8EF22303EA9B0092C82D /* LeetCodeTreeNode.swift */; };
 		30CEE44922E7FE5F00D5E3AD /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE44622E7FE5F00D5E3AD /* Stack.swift */; };
 		30CEE44A22E7FE5F00D5E3AD /* MinPQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE44722E7FE5F00D5E3AD /* MinPQ.swift */; };
 		30CEE44B22E7FE5F00D5E3AD /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEE44822E7FE5F00D5E3AD /* Queue.swift */; };
@@ -209,6 +213,10 @@
 		30B28DC022C6188200D8E512 /* LinkList_725_Split_Linked_List_in_Parts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList_725_Split_Linked_List_in_Parts.swift; sourceTree = "<group>"; };
 		30C1875822C2019C00DEF2DC /* LinkList_160_相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkList_160_相交链表.swift"; sourceTree = "<group>"; };
 		30C1875A22C223E700DEF2DC /* LeetCode_LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_LinkList.swift; sourceTree = "<group>"; };
+		30C69FE3230FCAE5006C3FF3 /* 96_不同的二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "96_不同的二叉搜索树.swift"; sourceTree = "<group>"; };
+		30CA8EEE2303DE560092C82D /* 79_单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "79_单词搜索.swift"; sourceTree = "<group>"; };
+		30CA8EF02303EA280092C82D /* 94_二叉树的中序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "94_二叉树的中序遍历.swift"; sourceTree = "<group>"; };
+		30CA8EF22303EA9B0092C82D /* LeetCodeTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeTreeNode.swift; sourceTree = "<group>"; };
 		30CEE44622E7FE5F00D5E3AD /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		30CEE44722E7FE5F00D5E3AD /* MinPQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinPQ.swift; sourceTree = "<group>"; };
 		30CEE44822E7FE5F00D5E3AD /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -251,6 +259,8 @@
 				3033274222F1876F00DAB043 /* 75_颜色分类.swift */,
 				30321ADA22F4215000FE7AA9 /* 76_最小覆盖子串.swift */,
 				30321ADC22F432FB00FE7AA9 /* 78_子集.swift */,
+				30CA8EEE2303DE560092C82D /* 79_单词搜索.swift */,
+				30CA8EF02303EA280092C82D /* 94_二叉树的中序遍历.swift */,
 			);
 			path = Top21_30;
 			sourceTree = "<group>";
@@ -285,9 +295,11 @@
 		3045897422E997E600B82B80 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				30C69FE2230FCACA006C3FF3 /* Top31_40 */,
 				3033273922F160AE00DAB043 /* Top21_30 */,
 				3033913B22EFF72C0018CDB4 /* Top11_20 */,
 				3073016522EAA4E80087B312 /* Top1_10 */,
+				30CA8EF22303EA9B0092C82D /* LeetCodeTreeNode.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -396,6 +408,14 @@
 				3033913922EFF4050018CDB4 /* 22_括号生成.swift */,
 			);
 			path = Top1_10;
+			sourceTree = "<group>";
+		};
+		30C69FE2230FCACA006C3FF3 /* Top31_40 */ = {
+			isa = PBXGroup;
+			children = (
+				30C69FE3230FCAE5006C3FF3 /* 96_不同的二叉搜索树.swift */,
+			);
+			path = Top31_40;
 			sourceTree = "<group>";
 		};
 		30CEE44522E7FE5F00D5E3AD /* Base */ = {
@@ -568,6 +588,7 @@
 				3000902422C4DD360067A1D5 /* LinkList_147_Insertion_Sort_List.swift in Sources */,
 				30321ADB22F4215000FE7AA9 /* 76_最小覆盖子串.swift in Sources */,
 				30CEE44922E7FE5F00D5E3AD /* Stack.swift in Sources */,
+				30C69FE4230FCAE5006C3FF3 /* 96_不同的二叉搜索树.swift in Sources */,
 				3059B08422E48EC400036A4F /* DepthFirstPath.swift in Sources */,
 				305679E222E702BC002A6B9B /* Edge.swift in Sources */,
 				3033913D22EFF7450018CDB4 /* 31_下一个排列.swift in Sources */,
@@ -621,8 +642,11 @@
 				3033273622F12FA500DAB043 /* 53_最大子序和.swift in Sources */,
 				30B28DC122C6188200D8E512 /* LinkList_725_Split_Linked_List_in_Parts.swift in Sources */,
 				3028B7DD22BA4E1200C43294 /* DoubleLinkList.swift in Sources */,
+				30CA8EEF2303DE560092C82D /* 79_单词搜索.swift in Sources */,
 				3000900F22C494380067A1D5 /* LinkList_86_Partition_List.swift in Sources */,
 				307FB86222BCC3B100B397CB /* CircleDoubleLInkList.swift in Sources */,
+				30CA8EF32303EA9B0092C82D /* LeetCodeTreeNode.swift in Sources */,
+				30CA8EF12303EA280092C82D /* 94_二叉树的中序遍历.swift in Sources */,
 				307FB86022BC898D00B397CB /* CircleLinkList.swift in Sources */,
 				30F83CEA22EE8F5D00D1BE71 /* LJString.swift in Sources */,
 				3073016922EAA5340087B312 /* 4_寻找两个有序数组的中位数.swift in Sources */,

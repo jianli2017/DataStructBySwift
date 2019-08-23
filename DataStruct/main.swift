@@ -166,4 +166,8 @@ import Foundation
 
 //Solution_75_颜色分类.test()
 
-Solution_76_最小覆盖子串.test()
+//Solution_76_最小覆盖子串.test()
+
+//Solution_78_子集.test()
+
+Solution_79_单词搜索.test()
