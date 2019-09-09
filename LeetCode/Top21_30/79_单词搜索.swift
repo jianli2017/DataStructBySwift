@@ -81,6 +81,7 @@ class Solution_79_单词搜索 {
 
 extension Solution_79_单词搜索 {
     static func test() {
+//        print(Int.min)
         let instance = Solution_79_单词搜索()
         assert(instance.exist([ ["A","B","C","E"],
                                 ["S","F","C","S"],
